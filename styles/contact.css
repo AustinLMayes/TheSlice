@@ -1,0 +1,20 @@
+/*
+  Contact Page CSS
+  Contains special column styling to make the icons play nice.
+*/
+
+/* Under map */
+figcaption {
+  font-style: italic;
+}
+
+/* Icons are tiny */
+.column #contact-info {
+  width: 30%;
+}
+
+/* Icon labels */
+.column #contact-labels {
+  text-align: right; /* hug */
+  padding-right: 7px;
+}

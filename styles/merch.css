@@ -1,0 +1,35 @@
+/*
+  Merch Page CSS
+  Contains special 3 column layout variation  with text styling.
+*/
+
+/* 3 columns */
+.column {
+  flex: 33.33%
+}
+
+/* Center everything */
+p {
+  text-align: center;
+}
+
+/* Red, scary text */
+#no-stock {
+  color: #c12600;
+  font-weight: bold;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+
+/* Money green */
+#price {
+  color: #0c6d28;
+  font-size: 25px;
+  font-weight: 100; /* Thin */
+}
+
+/* Make all images line up */
+img {
+  width: 100%;
+  height: 40%;
+}

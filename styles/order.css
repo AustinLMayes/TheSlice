@@ -1,0 +1,10 @@
+/*
+  Order Page CSS
+  Contains special fieldset styling.
+*/
+
+/* Custom fieldset which has better borders and hugs the toast */
+fieldset {
+	border-right: none; /* toastyyyy */
+	text-align: center;
+}

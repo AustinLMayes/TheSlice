@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>Order | The Slice</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/order.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+  <div class="nav">
+    <div class="container">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <a href="index.html">
+        <i class="fas fa-home"></i>
+        Home
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn active">
+          <i class="fas fa-arrow-right"></i>
+          Order
+        </button>
+        <div class="dropdown-content">
+          <a href="menu.html">
+            <i class="fas fa-utensils"></i>
+            Menu
+          </a>
+          <a href="catering.html">
+            <i class="fas fa-concierge-bell"></i>
+            Catering
+          </a>
+        </div>
+      </div>
+      <a href="deals.html">
+        <i class="fas fa-search-dollar"></i>
+        Deals
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fas fa-briefcase"></i>
+          Company
+        </button>
+        <div class="dropdown-content">
+          <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            About
+          </a>
+          <a href="find-us.html">
+            <i class="fas fa-at"></i>
+            Contact
+          </a>
+          <a href="apply.html">
+            <i class="fas fa-user"></i>
+            Apply
+          </a>
+          <a href="reviews.html">
+            <i class="fas fa-star"></i>
+            Reviews
+          </a>
+        </div>
+      </div>
+      <a href="merch.html">
+        <i class="fas fa-tshirt"></i>
+        Merch
+      </a>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div class="header">
+        Avocado Toasts
+        <div class="sub">$10.75</div>
+      </div>
+      <hr>
+      <form action="ordernow.html" method="get" name="Order_form" id="order_form" style="float:left">
+        <fieldset>
+          <legend>Ordering</legend>
+          <label for="ordertoast">Gluten Free Bread Type:</label>
+          <select name="bread_type" id="bread_type">
+            <option value="j">ciabatta</option>
+            <option value="r">baguette</option>
+            <option value="c">bagel</option>
+            <option value="d">rye</option>
+            <option value="e">sourdough</option>
+            <option value="f">focaccia</option>
+          </select>
+          <br><br>
+          <legend>Check what toppings you want on the avocado toast</legend>
+          <input type="checkbox" name="top"> Cheese<br>
+          <input type="checkbox" name="top"> Tomato<br>
+          <input type="checkbox" name="top"> Onion<br>
+          <input type="checkbox" name="top"> Lemon<br>
+          <input type="checkbox" name="top"> Bacon <strong>+$2</strong><br>
+          <input type="checkbox" name="top"> Smoked Salmon   <strong>+$3</strong><br>
+          <input type="checkbox" name="top"> Cage-free eggs <strong>+$2</strong><br>
+          <br>
+
+          <label for="orderdrinks">Drinks:</label>
+          <select name="bread_type" id="bread_type">
+            <option value="g">Coffee</option>
+            <option value="h">Iced coffee</option>
+            <option value="k">Watered down coffee</option>
+            <option value="l">Water</option>
+          </select>
+          <br><br>
+        </fieldset>
+        <br>
+        <input class="btn" type="submit" value="Submit Order">
+        <br>
+      </form>
+      <img src="images/avotoast.jpg" alt="toast" style="float:left; width:300px">
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>
+        Copyright &copy; 2018 The Slice
+      </p>
+      <div style="float: right">
+        <a href="https://twitter.com/@TheSlice615/"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

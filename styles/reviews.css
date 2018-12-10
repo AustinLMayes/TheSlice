@@ -1,0 +1,17 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img-holder {
+  height: 244px;
+}
+
+.name {
+  float: right;
+  font-style: italic;
+}
+
+.column {
+  display: inline-block;
+}

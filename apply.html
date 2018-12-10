@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>Job Application | The Slice</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/apply.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+  <div class="nav">
+    <div class="container">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <a href="index.html">
+        <i class="fas fa-home"></i>
+        Home
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fas fa-arrow-right"></i>
+          Order
+        </button>
+        <div class="dropdown-content">
+          <a href="menu.html">
+            <i class="fas fa-utensils"></i>
+            Menu
+          </a>
+          <a href="catering.html">
+            <i class="fas fa-concierge-bell"></i>
+            Catering
+          </a>
+        </div>
+      </div>
+      <a href="deals.html">
+        <i class="fas fa-search-dollar"></i>
+        Deals
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn active">
+          <i class="fas fa-briefcase"></i>
+          Company
+        </button>
+        <div class="dropdown-content">
+          <a href="about.html">
+            <i class="fas fa-info-circle"></i>
+            About
+          </a>
+          <a href="find-us.html">
+            <i class="fas fa-at"></i>
+            Contact
+          </a>
+          <a href="apply.html">
+            <i class="fas fa-user"></i>
+            Apply
+          </a>
+          <a href="reviews.html">
+            <i class="fas fa-star"></i>
+            Reviews
+          </a>
+        </div>
+      </div>
+      <a href="merch.html">
+        <i class="fas fa-tshirt"></i>
+        Merch
+      </a>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div class="header">
+        Apply
+        <div class="sub">
+          No body cameras here!
+        </div>
+      </div>
+      <hr>
+      <form action="apply-submit.html" method="get" name="apply_form" id="apply_form">
+
+      <fieldset style="border: none;">
+        <div class="row">
+          <div class="column">
+            <label for="first_name">Name:</label>
+          </div>
+          <div class="column">
+            <input type="text" name="first_name" id="first_name" placeholder="First" required>
+            <input type="text" name="last_name" id="last_name" placeholder="Last" required><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="email">E-Mail:</label>
+          </div>
+          <div class="column">
+            <input type="email" name="email" id="email" autofocus required><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="phone">Phone Number:</label>
+          </div>
+          <div class="column">
+            <input type="tel" name="phone" id="phone" placeholder="### ### ####"><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="postion_type">What job position are you applying for?</label>
+          </div>
+          <div class="column">
+            <select name="postion_type" id="postion_type">
+              <option value="m">Hipster Server</option>
+              <option value="d">Certified Barista</option>
+              <option value="s">Avocado Toast Creator</option>
+              <option value="s">Pizza Specialist</option>
+              <option value="s">Instagram Sponsor</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="moreabout">Tell us how hipster you truly are:</label><br>
+          </div>
+          <div class="column">
+            <textarea name="moreabout" id="moreabout"></textarea><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="resume">Attach your resume here:</label><br>
+          </div>
+          <div class="column">
+            <input type="file" name="resume" accept="file_externsion"><br>
+          </div>
+        </div>
+        <div class="apply">
+          <button class="btn" type="submit" value="submit">Apply Now</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <p>
+      Copyright &copy; 2018 The Slice
+    </p>
+    <div style="float: right">
+      <a href="https://twitter.com/@TheSlice615/"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

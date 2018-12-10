@@ -1,0 +1,40 @@
+/*
+  Home Page CSS
+  Contains styling for the homepage billboard
+*/
+
+/* Display Board */
+.board {
+  height: 320px;
+  overflow: hidden; /* Used to cut off blur */
+  -webkit-box-shadow:0px 5px 14px #588465; /* It's FLOATING */
+  box-shadow:0px 5px 14px #588465; /* It's FLOATING */
+  background: url("../images/homepagepic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* All text */
+.board .container {
+  position: absolute; /* Hacky centering */
+  top: 20%; /* Hacky centering */
+  left: 50%; /* Hacky centering */
+  transform: translate(-50%, -50%); /* Hacky centering */
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1.31px 10px rgba(0,0,0,.4), 0 0 24px rgba(0,0,0,.24); /* Make it readable */
+  background-color: rgba(239, 239, 239, 0.3);
+  border: 2px solid #91d8a6;
+}
+.board h1 {
+  font-size: 66px;
+  font-weight: 600;
+  text-transform: uppercase; /* Caps Lock: ON! */
+  margin: 0;
+}
+.board h2 {
+  font-size: 37px;
+  font-weight: 400;
+}

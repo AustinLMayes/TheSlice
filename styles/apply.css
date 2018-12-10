@@ -1,0 +1,28 @@
+textarea {
+  width: 100%;
+  resize: none;
+  height: 160px;
+  margin-bottom: 4px;
+}
+
+input {
+  height: 20px;
+  width: 45%;
+  margin-bottom: 4px;
+}
+
+select {
+  height: 20px;
+  margin-bottom: 4px;
+  width: 46%;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.apply {
+  text-align: center;
+  margin-top: 15px;
+}
